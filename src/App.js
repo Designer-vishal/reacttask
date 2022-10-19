@@ -24,7 +24,7 @@ function App() {
           Learn React
         </a>
       </header>
-      <div className='text-center'>
+      <div className='text-center d-none'>
         <h4>{time}</h4>
         <button className='btn btn-primary' onClick={changetime}>Click Me</button>
       </div>
